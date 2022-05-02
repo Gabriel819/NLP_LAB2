@@ -1,0 +1,26 @@
+1. Show the structure of your codes
+My Student ID is 20214047 and my name is Jimin Sohn
+
+nlp_lab-2_Gabriel819/
+├── code
+│   ├── main.py
+│   ├── my_model.py
+│   ├── my_dataset.py
+│   └── util.py
+├── command.txt
+├── data
+│   ├── sent_class.pred.csv
+│   ├── sent_class.test.csv
+│   └── sent_class.train.csv
+│
+├── README.md
+├── LAB2_parameters
+│   └── model_2.pth
+└── LAB2_submissions
+    └── 20214047_lab2_submission2.csv
+
+There are code lines in main that store or load tr_lemma & ts_lemma and tr_char_onehot & ts_char_onehot in pickle file, but you can just ignore it.
+'exp_num', 'lr', 'batch_size', 'epoch_num' are hyperparameter for training, but you don't have to change it in main.py to reproduce the result.
+
+2. Give the example command to reproduce your result
+python main.py
